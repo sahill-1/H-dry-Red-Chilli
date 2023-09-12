@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Chili</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+  <!-- Enquery Modal start -->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <button type="button" class="btn-close  enquery-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <label for="uname"><b>User Name</b></label>
+      <input type="text" placeholder="Enter Your Name" name="uname" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="cnum"><b>Contact No.</b></label>
+      <input type="num" placeholder="Enter Contact No." name="cnum" required>
+
+      <label for="sms"><b>Message</b></label>
+      <textarea name="text" id="" cols="10" rows="10"></textarea>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn common-btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <a href="gold.html">
+          <button type="button" class="btn-close enquery-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </a>
+        <p><a href="https://iconscout.com/lottie/checkmark-8929512"></a></p>
+        <h1 class="text-center">Thank You</h1>
+        <p class="text-center">Your Data Was Successfully Submit</p>
+      </div>
+      <div class="modal-footer">
+        <a href="gold.html">
+          <button href="product.html" class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Close</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Enquery Modal end -->
+
+     <!-- navbar start -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light  px-5"> 
+      <div class="container-fluid">
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="index.html" ><b>Home</b></a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="about.html"><b>About</b></a>
+            </li>
+
+            <li>
+              <a href="" class="mx-3"><img height="60px" src="img/navlogo.png" alt=""></a>
+            </li>
+
+            <li class="nav-item px-2">
+              <a class="nav-link active" href="product.html"><b>Product</b></a>
+            </li>
+
+            <li class="nav-item px-2">
+              <a class="nav-link" href="contact.html"><b>Contact</b></a>
+            </li>
+          
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item px-2">
+              <div class="wrap">
+                <button class="button-62" role="button"><a href="https://buy.stripe.com/dR6bLg06N0PPdYkaEE" style="color: white;">Pay Now</a></button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+  <!-- navnar end -->
+    <div class="container-fluid banner">
+      <h1 class="py-5 text-light text-center text-uppercase">Product</h1>
+    </div>
+    <!-- product start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-3 mt-5">
+          <div class="product-img">
+          <img class="img-fluid " src="img/p-1.png" alt="">
+        </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size: large;">Take Enquiry</b>
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5">
+          <div class="product-img">
+          <img  class="img-fluid" src="img/p-2.png" alt="">
+        </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5">
+          <div class="product-img">
+          <img   class="img-fluid" src="img/p-3.png" alt="">
+        </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+       
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+          <img class="img-fluid" src="img/p-4.png" alt="">
+        </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+          <img   class="img-fluid" src="img/p-5.png" alt="">
+          </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-6.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-7.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-8.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-9.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-10.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-11.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-12.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3 mt-5 product-section">
+          <div class="product-img">
+            <img   class="img-fluid" src="img/p-13.png" alt="">
+            </div>
+          <div class="d-flex justify-content-center align-items-center pt-2">
+            <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+          </div>
+        </div>
+     
+
+      <div class="col-sm-12 col-md-3 mt-5 product-section">
+        <div class="product-img">
+          <img   class="img-fluid" src="img/p-14.png" alt="">
+          </div>
+        <div class="d-flex justify-content-center align-items-center pt-2">
+          <button class="btn common-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><b style="font-size:large;">Take Enquiry</b> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="50 50 400 700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="align-self: baseline; "><path d="M565.3 328.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path></svg></button>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+
+
+    <!-- footer start -->
+<div class="container-fluid px-5 footer-banner mt-5" >
+  <div class="row pt-5">
+      
+
+      <div class="col-sm-12 col-md-3 footer-link">
+          <h3 class="pb-3 text-light"><b>About Us</b></h3>
+         <p style="color: rgb(255, 255, 255); font-size: 17px;">H-Dry Red Chilli Spices is a brand that is synonymous with quality, authenticity and flavour. We are dedicated to bringing the taste of India to your kitchen by providing the highest quality spices and seasoning blends.</p>
+      </div>
+
+      <div class="col-sm-12 col-md-3 footer-link">
+          <h3 class="pb-3 text-light"><b>Quick Links</b></h3>
+          <p><a href="index.html"><i class="fa fa-hand-o-right salid"></i> Home</a></p>
+          <p><a href="about.html"><i class="fa fa-hand-o-right salid"></i> About Us</a></p>
+          <p><a href="product.html"><i class="fa fa-hand-o-right salid"></i> Products</a></p>
+          <p><a href="contact.html"><i class="fa fa-hand-o-right salid"></i> Contact</a></p>
+      </div>
+
+
+      <div class="col-sm-12 col-md-3 footer-link">
+          <h3 class="pb-3 text-light"><b>Address</b></h3>
+
+          <p><a href=""><i class="fa-solid fa-location-dot"></i> Address: <span style="color: rgb(219, 219, 218); ">167, Sub D/V, Kal Gachia, Assam, 781321</span></a></p>
+
+          <p><a href=""><i class="fa fa-envelope"></i> Mail ID : <span style="color: rgb(219, 219, 218); ">hr360484@gmail.com</span></a></p>
+
+          <p><a href=""><i class="fa fa-phone" ></i> Contact No : <span style="color: rgb(219, 219, 218); ">+91-8133031490</span></a></p>
+          
+      </div>
+
+      <div class="col-sm-12 col-md-3 mt-5">
+        <img src="img/bwt-white.png" class="footer-logo" alt="downloading...">
+        <div class="d-flex justify-content-center"> <a href="https://api.whatsapp.com/send?phone=8133031490" target="_blank"><i
+              class="fa-brands fa-whatsapp" style="font-size: 30px; color: white; padding: 20px;"></i></a>
+          <a href="mailto:hr360484@gmail.com"><i class="fa-regular fa-envelope"style="font-size: 30px; color: white; padding: 20px;"></i></i></a>
+        </div>
+      </div>
+
+
+  </div>
+</div>
+<div class="container-fluid border-top border-danger">
+  <div class="row text-center">
+     <p class="pt-3 text-center"> All Copy Rights Reserved By <span class="text-danger"><b>BUSINESS WORLD TRADE</b></span></p>
+  </div>
+</div>
+<!-- footer end -->
+</body>
+</html>

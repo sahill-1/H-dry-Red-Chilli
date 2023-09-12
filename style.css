@@ -1,0 +1,276 @@
+
+
+/* CSS */
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.navbar {
+  background-color: #ff3b4e;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.show {
+  color: rgb(0, 0, 0);
+}
+
+.navbar {
+  font-size: calc((var(--site-navigation-font-font-size-value) - 1) * 1.2vw + 1rem);
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:hover {
+  color: rgb(165, 41, 41);
+}
+
+h5 {
+  color: #ff3b4e;
+}
+
+.service-parent {
+  background-color: #d31518;
+  display: inline-block;
+  padding: 10px 10px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -45px;
+  border: 10px solid white;
+  transition: all ease 0.5s !important;
+}
+
+.checked {
+  color: #FF8B45;
+}
+
+.service-icon {
+  font-size: 100px;
+  color: white;
+  transform: rotate(-45deg);
+  transition: all ease 0.5s !important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.service-parent {
+  background-color: #d31518;
+  display: inline-block;
+  padding: 10px 10px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -45px;
+  border: 10px solid white;
+  transition: all ease 0.5s !important;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.footer-link p a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: all ease 0.5s;
+}
+
+.salid {
+  transition: all ease 0.5s;
+}
+
+
+
+.footer-link p a:hover .salid {
+  padding-right: 10px;
+  color: #FF8B45;
+}
+
+.footer-link p a:hover i {
+  color: #FF8B45;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.banner {
+  background: url(img/haldi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal {
+  width: 100% !important;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=num],
+input[type=password],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=num]:focus,
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+  border: none !important;
+}
+
+.enquery-close {
+  float: right !important;
+}
+
+.common-btn {
+  padding: 8px 23px 8px 23px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+
+
+.common-btn:hover {
+  transition: all ease .5s !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  border: #000 1px solid !important;
+  transition: background-color 0.5s ease-in-out;
+}
+
+
+.product-img {
+  box-shadow: #000000 0px 5px 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 5px solid #fff;
+  cursor: pointer;
+}
+
+.product-img img {
+  transition: all .5s ease-in-out;
+}
+
+.product-img:hover img {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width:768px) {
+  .service-card {
+    margin-top: 80px !important;
+  }
+}
+
+/* contact section end */
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  color: #000;
+  background: #ccc;
+  transition: background-color 0.3s ease;
+  border: 2px black !important;
+}
+
+a {
+  /* color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1)); */
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-banner {
+  background-image: url(img/haldi.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width:768px){
+  .footer-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

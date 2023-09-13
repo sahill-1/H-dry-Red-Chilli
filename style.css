@@ -1,7 +1,19 @@
+.pay-now-button{
+  background-color: #ff3b4e;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+.pay-now-button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #e22e40;
 
-
-/* CSS */
-.button-62 {
+}
+.pay-now-button a{
+  color: white;
+  font-weight: 500;
+}
+/* .button-62 {
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
   border: 0;
   border-radius: 12px;
@@ -29,7 +41,7 @@
 
 .button-62:not([disabled]):hover {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-}
+} */
 .navbar {
   background-color: #ff3b4e;
 }
